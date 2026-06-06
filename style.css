@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+div {
+    border: solid red 1px;
+}
+
 img {
     width: 4rem;
     height: 4rem;
@@ -18,7 +22,7 @@ img {
 
 .container {
     display: grid;
-    grid-template: repeat(2, 1fr)/ 1fr 5fr;
+    grid-template: repeat(3, 1fr)/ 1fr 5fr;
 }
 
 .header {
@@ -30,7 +34,6 @@ img {
 .header div {
     display: flex;
     flex-flow: row wrap;
-    border: solid red 1px;
 }
 
 .searchbar {
@@ -55,4 +58,33 @@ img {
 .actions-section {
     align-items: center;
     justify-content: space-around;
+}
+
+.sidebar {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.sidebar img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.sidebar-header, 
+.social-feature, 
+.technical-feature,
+.sidebar-header > div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidebar-header {
+    align-items: flex-start;
+}
+
+.main-content {
+    height: 70vh;
 }
