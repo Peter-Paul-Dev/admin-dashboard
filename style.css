@@ -24,7 +24,7 @@ img {
 .header {
     grid-area: 1/2/2/3;
     display: grid;
-    grid-template: 8rem 8rem/ 7fr 3fr;
+    grid-template: 1fr 1fr/ 7fr 3fr;
     padding: 1rem;
     background-color: rgb(194, 76, 76);
 }
@@ -42,7 +42,6 @@ img {
 
 .greeting {
     grid-row: 2/3;
-    flex-flow: row wrap;
     align-items: center;
     gap: 1rem;
 }
@@ -94,7 +93,7 @@ img {
    grid-row: 2/3;
    grid-column: 2/3;
    display: grid;
-   grid-template: 1fr 1fr/7fr 3fr;
+   grid-template: 15rem 30rem/7fr 3fr;
    padding: 2rem;
 }
 
