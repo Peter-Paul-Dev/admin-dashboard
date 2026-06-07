@@ -107,6 +107,7 @@ img {
     width: 400px;
     border: solid black 1px;
     padding: 1rem;
+    display: grid;
 }
 
 .projects {
