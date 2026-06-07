@@ -110,6 +110,10 @@ img {
     display: grid;
 }
 
+.card p {
+    color: rgb(90, 89, 89);
+}
+
 .projects {
     grid-row: 1/2;
     display: grid;
