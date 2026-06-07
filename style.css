@@ -106,6 +106,7 @@ img {
     height: 180px;
     width: 400px;
     border: solid black 1px;
+    padding: 1rem;
 }
 
 .projects {
@@ -124,7 +125,8 @@ img {
 .trending-section {
     grid-column: 2/3;
     display: grid;
-    grid-template-rows: 1fr 9fr;
+    grid-template-rows: 1rem 9fr;
+    gap: 1rem;
 }
 
 .announcements-section img, 
@@ -141,4 +143,6 @@ img {
     height: 400px;
     display: flex;
     flex-flow: column wrap;
+    grid: 2/3;
 }
+
