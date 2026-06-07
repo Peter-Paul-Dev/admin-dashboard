@@ -158,11 +158,10 @@ img {
     grid-template-rows: 1rem 9fr;
     gap: 1rem;
 }
-
-.announcements-section img, 
+ 
 .trending-section img {
-    height: 3rem;
-    width: 3rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 .trending-section {
@@ -174,4 +173,18 @@ img {
     display: flex;
     flex-flow: column wrap;
     grid: 2/3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-content {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.trending-content div {
+    display: flex;
+    flex-flow: column wrap;
 }
