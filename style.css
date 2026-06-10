@@ -138,7 +138,7 @@ img {
     display: grid;
     border-radius: 8px;
     box-shadow: 0 0.5rem 1.2rem rgb(180, 178, 178);
-
+    border-left: solid 1rem rgb(233, 210, 110);
 }
 
 .card p {
